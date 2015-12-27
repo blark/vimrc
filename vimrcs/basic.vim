@@ -39,6 +39,11 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+set number
+set cc=80
+set cursorline
+let g:rehash256 = 1
+set t_Co=256
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -147,7 +152,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme molokai
 catch
 endtry
 
